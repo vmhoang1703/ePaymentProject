@@ -130,3 +130,5 @@ dist
 .pnp.*
 
 .idea
+# Local Netlify folder
+.netlify

@@ -63,6 +63,7 @@ const PaymentOption = ({
       res.json(),
     );
 
+    console.log(result);
     dispatch(setCartItems([]));
     window.location.href = result.response.shortLink;
   };
